@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+h2,
+h1 {
+  margin-left: 5vw;
+}
+h3 {
+  margin-left: 6vw;
+  margin-top: 2vh;
+  color: darkgoldenrod;
+}
+li {
+  margin-left: 9vw;
+  margin-top: 4vh;
+}
+button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 5vw;
+  margin-top: 2vh;
+}
+button:hover {
+  background-color: salmon;
+}
+
+input {
+  width: 90vw;
+  height: 6vh;
+  padding: 12px;
+  margin-left: 5vw;
+  margin-top: 8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  border-radius: 7px;
+  outline: none;
+  cursor: pointer;
+}
+label {
+  margin-left: 5vw;
+}
+input:focus {
+  background-color: lightblue;
+}
+p {
+  margin-left: 5vw;
+}
+#apibtn {
+  margin-top: 4vh;
+}
+@media screen and (max-width: 822px) and (min-width: 415px) {
+  * {
+    font-size: 20px;
+  }
+}

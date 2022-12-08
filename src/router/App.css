@@ -1,0 +1,25 @@
+a:active {
+  color: rgb(27, 171, 83);
+}
+h1 {
+  color: aqua;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: red
+}
+a:hover {
+  font-size: 50px;
+  color: black;
+}
+.container{
+  height: 100px;
+  width: 100vw;
+  border: 5px solid red;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
